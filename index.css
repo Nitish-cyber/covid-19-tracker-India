@@ -1,0 +1,45 @@
+body{
+    background-color: #d5e0eb;
+
+}
+.stats-container{
+    box-sizing: border-box;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+ .cases-flex-item , 
+.recovered-flex-item , 
+.death-flex-item,
+.active-flex-item,
+.test-flex-item{
+    width: 80%;
+    background-color:#fff;
+    margin: 1em,auto;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+@media(min-width:600px){
+    .cases-flex-container, 
+.recovered-flex-container , 
+.death-flex-container,
+.active-flex-container,
+.test-flex-container
+  {
+display: flex;
+    }
+    .cases-flex-item ,
+    .recovered-flex-item, 
+    .death-flex-item{
+    width: 33.3%;
+    margin: 0 2em 2em 2em;
+}
+.active-flex-item,
+.test-flex-item{
+    width: 50%;
+    margin: 0 2em 2em 2em;
+    
+
+} 
+} 
